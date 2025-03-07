@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded'), () => {
 function parseJson(jsonData) {
     console.log('Parsing JSON');
     let conDiv = document.getElementById('content');
-    jsonData.internet_figures.forEach(figure => {
+    jsonData.research.forEach(figure => {
         let figureDiv = document.createElement('div');
         let h2Tag = document.createElement('h2');
         let pTag = document.createElement('p');
