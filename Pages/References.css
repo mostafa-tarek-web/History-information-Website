@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #b3b3b3;
+    color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.content-container p {
+    flex: 1;
+}
+
+.photo-box {
+    flex: 0 0 auto;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 40%;
+}
