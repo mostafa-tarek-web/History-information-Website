@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded'), () => {
     console.log('DOM loaded');
-    fetch('figures.json')
+    fetch('data.json')
     .then(response => response.json())
     .then(jsonData => parseJson(jsonData))
     .catch(error => 
