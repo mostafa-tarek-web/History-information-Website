@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function parseJson(jsonData) {
     console.log('Parsing JSON');
-    let conDiv = document.getElementById('content');
+    let conDiv = document.getElementById('smthng');
     jsonData.research.forEach(research => {
         let researchDiv = document.createElement('div');
         let h1Tag = document.createElement('h1');
