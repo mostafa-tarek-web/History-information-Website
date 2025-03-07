@@ -37,12 +37,15 @@ nav ul li a {
     color: black;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.2s ease;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: rgb(159, 28, 163);
+        transform: scale(1.2);
 }
 
 main {
     padding: 20px;
 }
+
