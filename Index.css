@@ -84,6 +84,8 @@ p {
 .photo-box img {
     width: 600px;
     height: 500px;
+    border: #000000 1px solid;
+    border-radius: 20px;
 }
 
 .button-container {
